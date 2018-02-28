@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Auto Stress Releasing</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <h2>Auto Stress Releasing</h2>
+            </div>
+            <div class="card-body">
+                <div>Waiting time: <input type="text" name="duration" id="duration" /> minutes</div>
+                <div>Exercising time: <input type="text" name="waiting" id="waiting" /> minutes</div>
+                <div>Background color: <input type="text" name="background" id="background" /></div>
+                <div>Relax photo: <input type="text" name="curFile" id="curFile" /><button id="upload">Upload</button></div>
+                <input style="display:none;" id="fileDialog" type="file" />
+            </div>
+            <div class="card-footer">
+                <button class="beautiful-btn" id="apply">Save & Run</button>
+            </div>
+        </div>
+        <div id="exercise-screen">
+            <progress id="loading-bar" max="100" value="0"></progress>
+            <img id="guide-image" src="../assets/sample.jpg" />
+            <button class="beautiful-btn" id="stop">Stop & Change settings</button>
+        </div>        
+    </div>
+    <script src="../app/main.js"></script>
+</body>
+</html>

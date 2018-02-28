@@ -1,0 +1,33 @@
+{
+  "name": "auto-stress-releasing",
+  "version": "1.0.0",
+  "description": "Cross platform desktop application helping you maintain a good health everyday",
+  "main": "views/main.html",
+  "window": {
+    "min_width": 400,
+    "min_height": 420
+  },
+  "maintainers": [
+    {
+      "name": "Thinh Vo",
+      "web": "https://github.com/thinhvo0108"
+    }
+  ],
+  "bugs": "https://github.com/thinhvo0108/auto-stress-releasing/issues",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/thinhvo0108/auto-stress-releasing/blob/master/LICENSE"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/thinhvo0108/auto-stress-releasing.git",
+      "path": "src/"
+    }
+  ],
+  "dependencies": {
+    "jsonfile": "^4.0.0"
+  }
+}

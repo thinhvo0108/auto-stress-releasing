@@ -1,0 +1,69 @@
+button:focus {
+    outline:0;
+    opacity: .5;
+}
+button {
+    cursor: pointer;
+}
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;   
+    margin: 0;
+    padding: 0;     
+}
+.card-header {
+    text-align: center;
+}
+#exercise-screen {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: green;
+    z-index: 10;
+}
+#stop {
+    position: absolute;
+    bottom: 50px;
+    left: 45%;
+    z-index: 20;    
+}
+#guide-image {
+    position: absolute;
+    margin: auto;
+    left: 0; 
+    right: 0;
+    top: 0;
+    bottom: 0; 
+    max-width:100%;
+    max-height:100%;
+    vertical-align: middle;    
+}
+.card-footer {
+    text-align: center;
+}
+#apply {
+    margin-top: 20px;
+}
+progress[value] {
+    width: 800px;
+    height: 10px;
+}
+#loading-bar {
+    position: absolute;
+    top: 0;
+    margin: auto;
+    left: 0; 
+    right: 0;   
+}
+.beautiful-btn {
+    width: 200px;
+    height: 50px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #e53155;
+    color: white;
+}

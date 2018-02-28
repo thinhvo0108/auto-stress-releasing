@@ -1,0 +1,25 @@
+{
+  "name": "auto-stress-releasing",
+  "version": "1.0.0",
+  "description": "Cross platform desktop application helping you maintain a good health everyday",
+  "license": "MIT",
+  "author": {
+    "name": "Thinh Vo",
+    "url": "https://github.com/thinhvo0108"
+  },
+  "repository": {
+    "url": "https://github.com/thinhvo0108/auto-stress-releasing.git",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/thinhvo0108/auto-stress-releasing/issues"
+  },
+  "scripts": {
+    "dev": "nw src/",
+    "prod": "nwbuild --platforms win32,win64,osx64,linux32,linux64 --buildDir dist/ src/"
+  },
+  "devDependencies": {
+    "nw": "^0.28.3",
+    "nw-builder": "^3.5.1"
+  }
+}
